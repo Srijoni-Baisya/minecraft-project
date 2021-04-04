@@ -92,6 +92,11 @@ function my_keydown(e){
         console.log("p");
     }
 
+    if(keyPressed=='82'){
+        newImage("roof.jpg");
+        console.log("r");
+    }
+
     if(keyPressed=='83'){
         newImage("sky.PNG");
         console.log("s");
