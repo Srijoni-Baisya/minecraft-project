@@ -77,10 +77,7 @@ function my_keydown(e){
         console.log("g");
     }
 
-    if(e.shiftKey==true && keyPressed=='71'){
-        newImage("light_green_grass.png");
-        console.log("Shift+g");
-    }
+   
 
     if(keyPressed=='76'){
         newImage("leaf.PNG");
@@ -154,7 +151,7 @@ function up(){
 }
 
 function down(){
-    if(player_y<460){
+    if(player_y<610){
         player_y=player_y+block_height;
         console.log("block image height = "+block_height);
         console.log("When Down key is pressed, player_x = "+player_x+" , player_y = "+player_y);
